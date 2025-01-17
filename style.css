@@ -316,6 +316,7 @@ ul a{
 
   .shop-gallery{
     margin-left: 235px;
+    margin-top: 40px;
   }
 
   #sweets, #candles, #bouquets, #accessories{
@@ -363,3 +364,99 @@ ul a{
     transform: scale(1.1);
   }
 
+  @media screen and (max-width: 1024px) and (min-width: 768px) {
+    .flower-img {
+        width: 800px;
+        height: 300px;
+        margin-left: -50px;
+        margin-top: 60px;
+    }
+
+    .header-spacing {
+        margin-top: -150px;
+        text-align: center;
+    }
+
+    #mainlogo{
+        margin-bottom: 60px;
+        margin-left: 300px;
+    }
+
+    .menu {
+        position: relative;
+        top: 10%;
+        left: -2%;
+        transform: none;
+    }
+
+    .menu ul li {
+        width: 120px;
+        font-size: 14px;
+    }
+
+    .Gallery {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .shop-gallery{
+        padding-left: -50px;
+        margin-left: -70px;
+    }
+
+    .Gallery img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .About {
+        margin: 50px 20px 50px;
+    }
+    
+    .loader{
+        margin-left: 290px;
+    }
+
+    footer {
+        margin-left: -50px;
+    }
+
+    .About-contents {
+        width: 90%;
+    }
+}
+
+/* Desktop (1024px and above) */
+@media screen and (min-width: 1024px) {
+    .flower-img {
+        width: 1619px;
+        height: 400px;
+        margin-left: -150px;
+        margin-top: 115px;
+    }
+
+    .menu {
+        position: absolute;
+        top: 26%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .Gallery {
+        gap: 35px;
+    }
+
+    .Gallery img {
+        width: 290px;
+        height: 300px;
+    }
+
+    .About {
+        margin: 0 200px 0;
+    }
+
+    .About-contents {
+        width: 1000px;
+    }
+}
